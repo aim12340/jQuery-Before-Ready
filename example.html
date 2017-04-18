@@ -1,0 +1,21 @@
+<!--
+  This example shows how the .beforeReady() function executes before the .ready() function.
+-->
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="jquery-before-ready.js"></script>
+    </head>
+    <body>
+        <script>
+            $(function(){
+                alert("This function is declared first!")
+            })
+        </script>
+        <script>
+            $.beforeReady(function(){
+                alert("This function is declared second but executes first!")
+            })
+        </script>        
+    </body>
+</html>

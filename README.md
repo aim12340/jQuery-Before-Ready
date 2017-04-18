@@ -5,9 +5,9 @@ jQuery exeutes .ready() functions in source code order.  Sometimes we need to ex
 
 <b>Instructions</b>
 
-Load jquery-before-ready.js immediatley after jQuery, as as early as possible.
+Load jquery-before-ready.js immediatley after jQuery, or as as early as possible.
 
-Use .beforeReady() instead of .ready()
+Use .beforeReady() instead of .ready().  You should still use .ready() as normal if early execution it's needed.
 
 <b>Example</b>
 

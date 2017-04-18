@@ -11,6 +11,8 @@ Use .beforeReady() instead of .ready().  You should still use .ready() as normal
 
 <b>Example</b>
 
+<code>
 $.beforeReady(function() {
     alert("Ere I am JH")
 });
+</code>

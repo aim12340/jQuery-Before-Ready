@@ -1,5 +1,3 @@
-$ cat .gitattributes
 examples/* linguist-documentation
 * linguist-documentation
-*.js linguist-language=JavasScript
 *.js linguist-documentation=false

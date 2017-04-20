@@ -1,4 +1,4 @@
-*.js linguist-documentation=false
-examples/* linguist-documentation
-* linguist-documentation
+*.js linguist-vendored=false
+examples/* linguist-vendored
+* linguist-vendored
 

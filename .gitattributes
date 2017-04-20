@@ -1,1 +1,2 @@
-// example.html linguist-documentation
+$ cat .gitattributes
+examples/* linguist-documentation

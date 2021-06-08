@@ -7,7 +7,7 @@ jQuery exeutes .ready() functions in source code order.  Sometimes we need to ex
 
 Load jquery-before-ready.js immediatley after jQuery, or as as early as possible.
 
-Use .beforeReady() instead of .ready().  You should still use .ready() as normal for scripts that do not need early execution.
+Use .beforeReady() instead of .ready().  You should still use .ready() as normal if early execution it's needed.
 
 <b>Example</b>
 
